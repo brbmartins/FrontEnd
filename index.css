@@ -1,0 +1,105 @@
+* {
+    margin: 0 auto;
+}
+
+#main {
+    width: auto;
+    height: auto;
+}
+
+#header {
+    width: auto;
+    height: 100px;
+    background-color: white;
+}
+
+#container {
+    display: flex;
+    width: 900px;
+    height: 100px;  
+    justify-content: space-between;
+}
+
+#divlogo {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    padding-right: 10px;
+}
+
+#divbuttons {
+    display: flex;
+
+}
+
+.button-header {
+    border: none; 
+    align-items:
+}
+
+.link {
+    text-decoration: none;
+    align-items: center;
+    color: #727272;
+    padding: 15px;
+}
+
+.link:hover {
+    background-color: lightblue;
+    color: white; 
+}
+
+#nav {
+    width: auto;
+    height: 670px;
+    background-image: url("https://adrianomisina.github.io/CursoB7Web_medicenter/assets/imagem/img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#textnav {
+    padding-top: 100px;
+    padding-left: 20%;
+}
+
+#titulo {
+    color: floralwhite;
+    font-size: 70px;
+    font-family: Arial;
+    text-shadow: 0px 3px 5px #555555; 
+}
+
+#frase { 
+    color: floralwhite;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555555; 
+    padding-top: 10px;
+}
+
+#boxes {
+    width: 900px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+#box1 {
+    width: 300px;
+    height: 250px;
+    background-color: #39aae1;
+}
+
+#box2 {
+    width: 300px;
+    height: 250px;
+    background-color: #0079c7;
+}
+
+#box3 {
+    width: 300px;
+    height: 250px;
+    background-color: #2b4c99;
+}
